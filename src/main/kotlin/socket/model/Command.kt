@@ -9,5 +9,5 @@ import socket.model.BaseCommand
 class Command : BaseCommand()
 
 enum class CommandType {
-    ONLINE, OFFLINE, FILE, RESPONSE_PING, REQUEST_PING
+    ONLINE, OFFLINE, FILE, RESPONSE_PING, REQUEST_PING, READY_RECEIVE_FILE
 }
